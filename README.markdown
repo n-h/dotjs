@@ -64,7 +64,7 @@ the returned JavaScript.
 
 ## Install it
 
-    git clone http://github.com/defunkt/dotjs
+    git clone http://github.com/n-h/dotjs
     cd dotjs
     rake install
 
@@ -76,9 +76,9 @@ Now open https://localhost:3131 in Chrome and follow these steps:
 - Open it with Keychain
 - Configure its **Trust** section as shown: http://cl.ly/Pdny
 
-Finally install the Google Chrome extension:
+Finally install the Google Chrome extension not from the chrome store, but from this cloned version from the dotjs/ext directory:
 
-http://bit.ly/dotjs
+Navigate to: chrome://extensions/, check "Developer Mode" and click "Load unpacked extension...", then select the dotjs/ext directory and install.
 
 ## Uninstall it
 
